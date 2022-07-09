@@ -1,0 +1,28 @@
+.tile {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  background-color: rgb(255, 245, 232);
+}
+
+.player_1_selected {
+  background-image: url("./circle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.player_2_selected {
+  background-image: url("./cross.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.player_1_cursor {
+  cursor: url("./circle_cur.png") 18 18, auto;
+}
+
+.player_2_cursor {
+  cursor: url("./cross_cur.png") 18 18, auto;
+}
